@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+## [RUS]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Данный веб-сайт является официальным онлайн-ресурсом, представляющим творчество Тыналева Астара Сариевича. Вся размещённая информация и музыкальные произведения опубликованы с его согласия.
 
-Currently, two official plugins are available:
+Все права на композиции принадлежат автору. Разрешается использование материалов сайта исключительно в некоммерческих целях с обязательным указанием авторства.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+По вопросам сотрудничества и получения разрешений: **ataykimwork@gmail.com**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## [ENG]
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This website is the official online resource representing the works of Tynailev Astar Saryievich. All published information and musical compositions are shared with his permission.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+All rights to the compositions are reserved by the author. Materials on this site may only be used for non-commercial purposes with proper attribution.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📧 For inquiries and permissions: **ataykimwork@gmail.com**
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## [KGZ]
+
+
+Бул веб-сайт — Тыналев Астар Сариевичтин чыгармачылыгын расмий түрдө сунуштаган жападан онлайн-ресурс болуп эсептелет. Бардык маалымат жана музыкалык чыгармалар анын макулдугу менен жайгаштырылган.
+
+Композициялардын бардык укуктары авторго таандык. Сайттагы материалдарды коммерциялык эмес максаттарда, авторду сөзсүз көрсөтүү менен колдонууга уруксат берилет.
+
+Суроолор жана уруксаттар боюнча: **ataykimwork@gmail.com**
+
+---
+
+## [KAZ]
+
+Бұл веб-сайт — Тыналев Астар Сариевичтің шығармашылығын танытатын ресми онлайн-ресурс болып табылады. Барлық ақпарат пен музыкалық туындылар оның келісімімен жарияланған.
+
+Композицияларға барлық құқықтар авторға тиесілі. Сайт материалдарын тек коммерциялық емес мақсатта, авторды міндетті түрде көрсетіп қолдануға рұқсат етіледі.
+
+Сұрақтар мен рұқсат алу үшін: **ataykimwork@gmail.com**
