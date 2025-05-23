@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer className="bg-black text-white py-6">
       <div className="container mx-auto px-4">
         <div className="flex justify-center items-center">
-          <p className="text-lg">
+          <p className="text-lg text-center">
             {t('footer.name')} © {new Date().getFullYear()}{' | '}
             <Link to="/legal" className="hover:text-gray-300 transition-colors">
               {t('footer.legal')}
