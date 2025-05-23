@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import tynalievAstar from '../assets/bio/tynaliev_astar.png';
 
 export const Biography = () => {
   const { t } = useTranslation();
@@ -10,7 +9,7 @@ export const Biography = () => {
         {/* Photo */}
         <div className="w-full md:w-1/3">
           <img
-            src={tynalievAstar}
+            src="/assets/bio/tynaliev_astar.png"
             alt="Tynaliev Astar Biography Тыналиев Астар Биография "
             className="w-full h-auto rounded-lg shadow-lg"
           />
