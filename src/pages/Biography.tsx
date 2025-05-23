@@ -12,6 +12,7 @@ export const Biography = () => {
             src="/assets/bio/tynaliev_astar.png"
             alt="Tynaliev Astar Biography Тыналиев Астар Биография "
             className="w-full h-auto rounded-lg shadow-lg"
+            loading="lazy"
           />
         </div>
 

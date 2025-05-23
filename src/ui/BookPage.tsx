@@ -18,6 +18,7 @@ export const BookPage = ({ book }: BookPageProps) => {
               src={book.bookCover}
               alt={book.title}
               className="w-full h-auto rounded-lg shadow-md"
+              loading='lazy'
             />
           </div>
 
